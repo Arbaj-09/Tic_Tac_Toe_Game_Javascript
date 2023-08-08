@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style>
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.board {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 10px;
+		}
+
+		.cell {
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 3rem;
+			cursor: pointer;
+		}
+
+		footer {
+			text-align: center;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="board">
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+			<div class="cell"></div>
+		</div>
+	</div>
+
+	<footer>
+		Made by Arbaj Shaikh
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
